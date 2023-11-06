@@ -14,6 +14,7 @@
 		4B6EC7882AF97B8600061A3F /* New_reminders_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6EC7872AF97B8600061A3F /* New_reminders_appTests.swift */; };
 		4B6EC7922AF97B8600061A3F /* New_reminders_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6EC7912AF97B8600061A3F /* New_reminders_appUITests.swift */; };
 		4B6EC7942AF97B8600061A3F /* New_reminders_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6EC7932AF97B8600061A3F /* New_reminders_appUITestsLaunchTests.swift */; };
+		4B6EC7A12AF97DF300061A3F /* Reminders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6EC7A02AF97DF300061A3F /* Reminders.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		4B6EC78D2AF97B8600061A3F /* New reminders appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "New reminders appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B6EC7912AF97B8600061A3F /* New_reminders_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_reminders_appUITests.swift; sourceTree = "<group>"; };
 		4B6EC7932AF97B8600061A3F /* New_reminders_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New_reminders_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4B6EC7A02AF97DF300061A3F /* Reminders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminders.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				4B6EC7782AF97B8400061A3F /* ContentView.swift */,
 				4B6EC77A2AF97B8600061A3F /* Assets.xcassets */,
 				4B6EC77C2AF97B8600061A3F /* Preview Content */,
+				4B6EC7A02AF97DF300061A3F /* Reminders.swift */,
 			);
 			path = "New reminders app";
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B6EC7A12AF97DF300061A3F /* Reminders.swift in Sources */,
 				4B6EC7792AF97B8400061A3F /* ContentView.swift in Sources */,
 				4B6EC7772AF97B8400061A3F /* New_reminders_appApp.swift in Sources */,
 			);
